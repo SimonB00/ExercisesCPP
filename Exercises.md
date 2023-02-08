@@ -1,4 +1,4 @@
-# Exercises
+# Esercizi 
 * Si puo' dimostrare che, prendendo una qualunque sequenza di numeri, esiste una potenza intera di 2 che inizia con quella sequenza numerica (per esempio, se la sequenza e' `10`, la potenza di 2 in questione e' `1024`, quindi l'esponente cercato e' `10`). Si implementi una funzione per verificare questo interessante fatto matematico, che prende in input una sequenza e fornisce in output l'esponente cercato. Testare questa funzione usando sequenze di, al massimo, 4 cifre. 
 * Implementa una classe `Person` che salva il nome e il cognome di un individuo come dati membri. Scrivi un costruttore che prende due parametri, i getter e i setter. Infine scrivi un breve `main()` per testare la classe, creando un'istanza sulla stack.
 * Per la classe `Person` implementata nell'esercizio precendete, e' necessario implementare esplicitamente un copy constructor? Nel caso in cui cio' non sia necessario, qual e' il comportamento del costruttore fornito in automatico dal compilatore?
@@ -7,3 +7,4 @@
 * Come estensione dell'esercizio precendete, scrivere un codice che produce sequenze alfanumeriche, dove lettere e numeri sono equiprobabili.
 * Scrivere una funzione che prende in input due insiemi numerici sotto forma di `std::vector` e fornisce in output un vettore contenente l'intersezione dei due.
 * Riscrivi la soluzione dell'esercizio precendete sull'intersezione di due insieme mediante una funzione ricorsiva.
+* Il numero `6174` ha una proprieta' interessante, verificata dal cosiddetto problema di `Kaprekar`. Prendendo un numero qualsiasi di 4 cifre, formato da almeno due cifre diverse, se si ordinano le cifre di tale numero prima in ordine decrescente e poi decrescente e si sottraggono i due numeri cosi' ottenuti (prendendo il valore assoluto), ripetendo tali step si ottiene sempre `6174` in un numero di step uguale o inferiore a `7`. Scrivere un codice che verifichi questa proprieta'.
